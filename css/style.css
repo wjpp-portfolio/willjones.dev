@@ -1,7 +1,60 @@
-body {
-    background-color: #f7f7ee;
-    font: "Fira Sans", sans-serif;
-    text-align: center;
-    text-align: justify;
+html{font-family:Fira Sans,sans-serif;}
+
+body>header{margin-top:1.4rem}
+
+body>header>nav>a{margin-right:3.4rem}
+
+body{
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#f7f7ee;
+    max-width:75ch;
 }
+
+h1{
+    margin-top:4rem;
+    margin-bottom:1.5rem;
+    font-size:2rem;
+    line-height:1;
+}
+h2{ 
+    margin-top:3rem;
+    margin-bottom:1rem;
+    font-size:1.7rem;
+    line-height:1;
+}
+h3{
+    font-weight:400;
+    font-style:italic;
+    font-size:1.4rem;
+    margin-top:2rem;
+    margin-bottom:1rem;
+    line-height:1;
+}
+li{
+    margin-bottom: 5px;
+}
+table.date-achieved td:first-child{
+    width: 15%
+}
+table.contact-details td:first-child {
+    font-weight: bold;
+    width: 30%;
+}
+footer{
+    margin-top:6rem;
+    margin-bottom:2rem;
+}
+table.resources{
+    margin-top:1rem;
+    
+    border-spacing: 0 1.5em;
+}
+table.resources td:first-child {
+    width: 20rem;
+    padding-right: 25px;
+ 
+  
+}
+
 
