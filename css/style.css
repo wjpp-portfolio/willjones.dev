@@ -11,11 +11,14 @@ body{
     max-width:75ch;
 }
 
-h1{
+h1 {
     margin-top:4rem;
     margin-bottom:1.5rem;
     font-size:2rem;
     line-height:1;
+}
+.titles {
+    font-size:1rem;
 }
 h2{ 
     margin-top:3rem;
